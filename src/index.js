@@ -1,7 +1,9 @@
+import $ from 'jQuery';
+import './index.css';
 import api from './api.js';
-import shoppingList from './shopping-list.js';
 import store from './store.js';
-/* global $*/
+import shoppingList from './shopping-list.js';
+/* global */
 
 $(document).ready(function() {
   shoppingList.bindEventListeners();
@@ -14,4 +16,3 @@ $(document).ready(function() {
     })
     .catch(err => console.log(err.message));
 });
-

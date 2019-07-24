@@ -4,7 +4,9 @@
   "description": "Created for the Thinkful EI Program.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server",
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",
@@ -18,7 +20,8 @@
   },
   "homepage": "https://github.com/thinkful-ei-firefly/npm-packages-mike-hector#readme",
   "dependencies": {
-    "jquery": "^3.4.1"
+    "jquery": "^3.4.1",
+    "normalize.css": "^8.0.1"
   },
   "devDependencies": {
     "css-loader": "^3.1.0",
@@ -30,3 +33,4 @@
     "webpack-dev-server": "^3.7.2"
   }
 }
+

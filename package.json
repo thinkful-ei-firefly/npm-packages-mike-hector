@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/thinkful-ei-firefly/npm-packages-mike-hector/issues"
   },
-  "homepage": "https://github.com/thinkful-ei-firefly/npm-packages-mike-hector#readme"
+  "homepage": "https://github.com/thinkful-ei-firefly/npm-packages-mike-hector#readme",
+  "dependencies": {
+    "jquery": "^3.4.1"
+  }
 }
